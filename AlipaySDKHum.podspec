@@ -125,7 +125,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
   
-  s.frameworks   = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CorpGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
+  s.frameworks   = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion'
   s.libraries    = 'c++', 'z'
 
   # s.framework  = "SomeFramework"
